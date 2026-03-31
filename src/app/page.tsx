@@ -367,7 +367,7 @@ export default function Home() {
           <div className="marquee-track">
             {[...Array(10)].map((_, i) => (
               <h2 key={i} className="client-title" style={{ 
-                fontSize: 'clamp(3rem, 10vw, 8rem)', 
+                fontSize: 'clamp(1.5rem, 5vw, 4rem)', 
                 whiteSpace: 'nowrap', 
                 color: '#000', 
                 fontWeight: 900,
